@@ -27,7 +27,7 @@ public class Ticket {
     }
 
     public String getTicketId() {
-        return this.getTicketId();
+        return this.ticketId;
     }
 
     public double getPayment() {

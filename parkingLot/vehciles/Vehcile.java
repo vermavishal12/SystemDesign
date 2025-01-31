@@ -4,7 +4,7 @@ import java.util.UUID;
 
 import parkingLot.enums.VehcileType;
 
-public abstract class Vehcile {
+public class Vehcile {
     private String licensePlate;
     private VehcileType vehcileType;
 
@@ -12,4 +12,13 @@ public abstract class Vehcile {
         this.licensePlate = licensePlate;
         this.vehcileType = vehcileType;
     }
+
+    public VehcileType getVehcileType() {
+        return this.vehcileType;
+    }
+
+    public String getLicensePlate() {
+        return this.licensePlate;
+    }
+
 }

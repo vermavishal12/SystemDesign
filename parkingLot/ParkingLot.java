@@ -1,6 +1,5 @@
 package parkingLot;
 
-import java.rmi.UnexpectedException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -50,7 +49,7 @@ public class ParkingLot {
         Ticket ticket = activeTickets.get(ticketId);
         double amount = ticket.getPayment();
         // add the API call to make the payment
-
+        // payviaThirdParty(amount);
         ticket.setTicketStatus(TicketStatus.PAID);
         activeTickets.remove(ticket.getTicketId());
         ticket.setTicketStatus(TicketStatus.PAID);
