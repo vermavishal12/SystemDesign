@@ -4,4 +4,5 @@ This folder contains the system design for
 <ul>
   <li>Chess Engine</li>
   <li>Parking Lot</li>
+  <li>News Feed</li>
 </ul>
